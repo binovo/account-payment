@@ -27,7 +27,7 @@ class AccountMoveLine(models.Model):
                                       string='Payment Terms')
     stored_invoice_id = fields.Many2one(
         comodel_name='account.invoice', compute='_compute_invoice',
-        string='Stored Invoice', store=True)
+        string='Stored Invoice', store=True, index=True)
 
     invoice_user_id = fields.Many2one(
         comodel_name='res.users', related='stored_invoice_id.user_id',
