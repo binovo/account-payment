@@ -1,0 +1,240 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_payment_return_import
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-21 12:46+0000\n"
+"PO-Revision-Date: 2025-11-21 12:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+#, python-format
+msgid "%d transactions had already been imported and were ignored."
+msgstr "%d transakzio inportatu dira dagoeneko eta ez ikusi egingo zaie."
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+#, python-format
+msgid "1 transaction had already been imported and was ignored."
+msgstr "1 transakzio inportatu da eta ez ikusi egin zaio."
+
+#. module: account_payment_return_import
+#: model:ir.model.constraint,message:account_payment_return_import.constraint_payment_return_line_unique_import_id
+msgid "A payment return transaction can be imported only once!"
+msgstr "Itzultze-transakzioak behin bakarrik inporta daitezke."
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,help:account_payment_return_import.field_payment_return_import__journal_id
+msgid ""
+"Accounting journal related to the bank payment return you're importing. It "
+"has be be manually chosen for payment return formats which doesn't allow "
+"automatic journal detection."
+msgstr ""
+"Inportatzen ari zaren bankuko ordainketaren itzultze-fitxategiarekin lotutako kontuaren egunkaria. Egunkaria automatikoki hautematea onartzen ez duten fitxategien formatuen kasuan, eskuz hautatzen da."
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+#, python-format
+msgid "Already imported items"
+msgstr "Inportatutako elementuak"
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return__imported_bank_account_id
+#: model_terms:ir.ui.view,arch_db:account_payment_return_import.payment_return_search_view
+msgid "Bank account"
+msgstr "Banku-kontua"
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,help:account_payment_return_import.field_payment_return__imported_bank_account_id
+msgid "Bank account from the imported file"
+msgstr "Inportatutako fitxategiko banku-kontua"
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+#, python-format
+msgid "Can not determine journal for import."
+msgstr "Ezin da zehaztu inportatu beharreko egunkaria."
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+#, python-format
+msgid "Can not find the account number %s."
+msgstr "Ezin da aurkitu %s kontu-zenbakia."
+
+#. module: account_payment_return_import
+#: model_terms:ir.ui.view,arch_db:account_payment_return_import.account_payment_return_import_view
+msgid "Cancel"
+msgstr "Utzi"
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+#, python-format
+msgid ""
+"Could not make sense of the given file.\n"
+"Did you install the module to support this type of file?"
+msgstr ""
+"Ezin izan zaio zentzua eman emandako fitxategiari.\n"
+"Instalatu duzu fitxategi-mota hori erabiltzeko modulua?"
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/base_parser.py:0
+#, python-format
+msgid "Couldn't load file data"
+msgstr "Ezin izan da kargatu datu-fitxategia"
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__create_uid
+msgid "Created by"
+msgstr "Nork sortua"
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__create_date
+msgid "Created on"
+msgstr "Noiz sortua"
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__display_name
+msgid "Display Name"
+msgstr "Izena erakutsi"
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,help:account_payment_return_import.field_payment_return_import__data_file
+msgid ""
+"Get you bank payment returns in electronic format from your bank and select "
+"them here."
+msgstr ""
+"Jaso ordainketen diru-itzultzeak formatu elektronikoan bankutik eta hauta itzazu hemen."
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__hide_journal_field
+msgid "Hide the journal field in the view"
+msgstr "Ezkutatu egunkariko eremua ikuspegian"
+
+#. module: account_payment_return_import
+#: model_terms:ir.ui.view,arch_db:account_payment_return_import.account_payment_return_import_view
+msgid ""
+"How to import your payment return :<br/>\n"
+"                    1. Download your Payment Return file from your bank website.<br/>\n"
+"                    2. Make sure you have installed the right module to support the file format.<br/>\n"
+"                    3. Select the file and click 'Import'."
+msgstr ""
+"Ordainketen diru-itzultzeak inportatzeko argibideak:<br/>\n"
+"                    1. Deskargatu ordainketen itzultzeen fitxategia bankuaren webgunetik.<br/>\n"
+"                    2. Ziurtatu fitxategi-formatuarekin bateragarria den modulua instalatuta daukazula.<br/>\n"
+"                    3. Hautatu fitxategia eta sakatu 'Inportatu'."
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__id
+msgid "ID"
+msgstr "IDa"
+
+#. module: account_payment_return_import
+#: model_terms:ir.ui.view,arch_db:account_payment_return_import.account_payment_return_import_view
+msgid "Import"
+msgstr "Inportatu"
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_line__unique_import_id
+msgid "Import ID"
+msgstr "Inportatu IDa"
+
+#. module: account_payment_return_import
+#: model:ir.actions.act_window,name:account_payment_return_import.action_account_payment_return_import
+#: model:ir.model,name:account_payment_return_import.model_payment_return_import
+#: model:ir.ui.menu,name:account_payment_return_import.menu_account_payment_return_import
+msgid "Import Payment Return"
+msgstr "Inportatu ordainketen diru-itzultzea"
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__journal_id
+msgid "Journal"
+msgstr "Egunkaria"
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import____last_update
+msgid "Last Modified on"
+msgstr "Azken aldatze-data:"
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__write_uid
+msgid "Last Updated by"
+msgstr "Nork eguneratua"
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__write_date
+msgid "Last Updated on"
+msgstr "Noiz eguneratua"
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__match_after_import
+msgid "Match After Import"
+msgstr "Bat etorri inportatu ondoren"
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__data_file
+msgid "Payment Return File"
+msgstr "Ordainketa itzultzeko fitxategia"
+
+#. module: account_payment_return_import
+#: model:ir.model,name:account_payment_return_import.model_payment_return
+msgid "Payment return"
+msgstr "Ordainketaren itzultzea"
+
+#. module: account_payment_return_import
+#: model:ir.model,name:account_payment_return_import.model_payment_return_line
+msgid "Payment return lines"
+msgstr "Ordainketaren itzultzearen lerroak"
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_line__raw_import_data
+msgid "Raw Import Data"
+msgstr "Inportatutako datu gordinak"
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+#, python-format
+msgid "The account of this payment return is linked to another journal."
+msgstr "Ordainketa honen itzulketaren kontua beste egunkari batekin lotuta dago."
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+#, python-format
+msgid "This file doesn't contain any payment return."
+msgstr "Fitxategi honetan ez dago itzulitako ordainketarik."
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+#, python-format
+msgid "This file doesn't contain any transaction."
+msgstr "Fitxategi honetan ez dago transakziorik."
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,help:account_payment_return_import.field_payment_return_line__raw_import_data
+msgid "XML RAW data stored for debugging/check purposes"
+msgstr "Arazteko edo egiaztapenak egiteko gordetako XML RAW datuak"
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+#, python-format
+msgid "You have already imported this file."
+msgstr "Jada inportatu duzu fitxategi hau."
